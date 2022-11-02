@@ -1,0 +1,65 @@
+INFO:uvicorn.error:Started server process [16308]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)
+INFO:aiogram:Bot: \u041e\u043d\u043b\u0430\u0439\u043d-\u041c\u0430\u04b3\u0430\u043b\u043b\u0430 [@online_mahalla_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:45:25 2022, command: start
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:45:29 2022, Selected lang 
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:45:33 2022, contact: +998903090722
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:45:37 2022, Appeals selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:45:39 2022, Subsidy selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:45:41 2022, Employment selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:45:43 2022, Referral selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:45:45 2022, Manual selected
+INFO:root:First_name: <!>, user_id: 1456374097, Wed Nov  2 14:46:10 2022, command: start
+INFO:root:First_name: <!>, user_id: 1456374097, Wed Nov  2 14:46:13 2022, Selected lang 
+INFO:root:First_name: <!>, user_id: 1456374097, Wed Nov  2 14:46:16 2022, contact: +998882690011
+INFO:root:First_name: <!>, user_id: 1456374097, Wed Nov  2 14:46:18 2022, Appeals selected
+INFO:root:First_name: <!>, user_id: 1456374097, Wed Nov  2 14:46:28 2022, Subsidy selected
+INFO:root:First_name: <!>, user_id: 1456374097, Wed Nov  2 14:46:30 2022, Employment selected
+INFO:root:First_name: <!>, user_id: 1456374097, Wed Nov  2 14:46:31 2022, Referral selected
+INFO:root:First_name: <!>, user_id: 1456374097, Wed Nov  2 14:46:33 2022, Manual selected
+INFO:uvicorn.error:Started server process [19004]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)
+INFO:aiogram:Bot: \u041e\u043d\u043b\u0430\u0439\u043d-\u041c\u0430\u04b3\u0430\u043b\u043b\u0430 [@online_mahalla_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:First_name: <!>, user_id: 1456374097, Wed Nov  2 14:47:03 2022, command: start
+INFO:root:First_name: <!>, user_id: 1456374097, Wed Nov  2 14:47:05 2022, Selected lang 
+INFO:root:First_name: <!>, user_id: 1456374097, Wed Nov  2 14:47:07 2022, contact: +998882690011
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\gd_nt\.virtualenvs\mahalla-bot-ntnV1Cjp\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('level')>
+Traceback (most recent call last):
+  File "C:\Users\gd_nt\.virtualenvs\mahalla-bot-ntnV1Cjp\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\gd_nt\.virtualenvs\mahalla-bot-ntnV1Cjp\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\gd_nt\.virtualenvs\mahalla-bot-ntnV1Cjp\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\gd_nt\.virtualenvs\mahalla-bot-ntnV1Cjp\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\gd_nt\.virtualenvs\mahalla-bot-ntnV1Cjp\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\RealSoft\mahalla-bot\bot.py", line 224, in get_contact
+    if len(user_data) != 0 or user_data['level'] == 4 and user_data['org_type'] == 100:
+KeyError: 'level'
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:32 2022, command: start
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:34 2022, Selected lang 
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:36 2022, contact: +998903090722
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:38 2022, Appeals selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:39 2022, Subsidy selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:41 2022, Employment selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:42 2022, Referral selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:43 2022, Busineses selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:45 2022, Notebooks selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:47 2022, women selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:48 2022, iron selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:51 2022, social register selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:53 2022, young selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:56 2022, unemployed selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:47:58 2022, Manual selected
+INFO:root:First_name: Jamshid Abdullajonov, user_id: 1756185474, Wed Nov  2 14:48:00 2022, Notebooks selected
